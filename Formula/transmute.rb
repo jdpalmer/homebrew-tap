@@ -1,17 +1,20 @@
-require "formula"
-
 class Transmute < Formula
-  desc "A small MacOS utility for doing image format conversions."
+  desc "Convert image formats with Quartz"
   homepage "https://github.com/jdpalmer/transmute"
-  url "https://github.com/jdpalmer/transmute/archive/refs/tags/v1.3.zip"
-  sha256 "f4a7d7097f7db55c66d184021e19bdae0d5e8dba438e55dd5120ccaa32f57c9a"
-  version "1.3"
+  url "https://github.com/jdpalmer/transmute/archive/refs/tags/v1.4.tar.gz"
+  sha256 "1e5f8bccca1f6bb2394a6e5224c4ffa612d4102234ddc8d2586825a8862056de"
+  license "Apache-2.0"
+  head "https://github.com/jdpalmer/transmute.git", branch: "master"
+
+  depends_on :macos
 
   def install
-    ENV['PREFIX'] = prefix
     system "make"
-    bin.install "transmute"
-    man1.install "transmute.1"
+    system "make", "install", "PREFIX=#{prefix}"
   end
 
+  test do
+    output = shell_output("#{bin}/transmute -h")
+    assert_match "transmute", output
+  end
 end
