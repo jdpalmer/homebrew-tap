@@ -1,8 +1,8 @@
 class Transmute < Formula
   desc "Convert image formats with Quartz"
   homepage "https://github.com/jdpalmer/transmute"
-  url "https://github.com/jdpalmer/transmute/archive/refs/tags/v26.1.tar.gz"
-  sha256 "f3a6854e031febcdb8b9b2893fb5bd7e0a8ab621e320ca568c080a6a95c79263"
+  url "https://github.com/jdpalmer/transmute/archive/refs/tags/v26.2.tar.gz"
+  sha256 "14f73e24d4564edb4a3dd6689fd293f328a8385378abb4ae2f09e6d44a8457ef"
   license "Apache-2.0"
   head "https://github.com/jdpalmer/transmute.git", branch: "master"
 
