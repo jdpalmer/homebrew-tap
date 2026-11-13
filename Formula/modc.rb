@@ -6,7 +6,7 @@ class Modc < Formula
   license "MIT"
   head "https://github.com/jdpalmer/modc.git", branch: "main"
 
-  depends_on "qbe"
+  depends_on "jdpalmer/tap/modc-qbe"
 
   def install
     system "make"
