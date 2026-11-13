@@ -1,8 +1,8 @@
 class Modc < Formula
   desc "Safe systems language that compiles via QBE"
   homepage "https://github.com/jdpalmer/modc"
-  url "https://github.com/jdpalmer/modc/archive/refs/tags/2026.11.01.tar.gz"
-  sha256 "e317dd19929883fdac20bd831934cff66d8b09ad3db2f199a414b79cf01ec7a0"
+  url "https://github.com/jdpalmer/modc/archive/refs/tags/2026.11.02.tar.gz"
+  sha256 "305190f7dd74c82b4a8d74bfcab3d0cdf23d167bccf9f5400373d843a04462d5"
   license "MIT"
   head "https://github.com/jdpalmer/modc.git", branch: "main"
 
@@ -14,7 +14,7 @@ class Modc < Formula
   end
 
   test do
-    assert_match "2026.11.01", shell_output("#{bin}/modc -V")
+    assert_match "2026.11.02", shell_output("#{bin}/modc -V")
     (testpath/"hello.mc").write <<~EOS
       int main() {
           return 0;
