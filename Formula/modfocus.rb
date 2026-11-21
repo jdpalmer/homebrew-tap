@@ -1,8 +1,8 @@
 class Modfocus < Formula
   desc "Terminal task organizer with a spreadsheet-style workflow"
   homepage "https://github.com/jdpalmer/modfocus"
-  url "https://github.com/jdpalmer/modfocus/archive/refs/tags/26.11.2.tar.gz"
-  sha256 "e88d8888ab794fa243f563463f05bcc404a9a78343971786d17157726ecf3598"
+  url "https://github.com/jdpalmer/modfocus/archive/refs/tags/26.11.3.tar.gz"
+  sha256 "3732f95780007d7af3ea618a97bb36292dec7c6ff0e3ff365907bee590b4679e"
   license "MIT"
   head "https://github.com/jdpalmer/modfocus.git", branch: "main"
 
