@@ -3,7 +3,7 @@ class Transmute < Formula
   homepage "https://github.com/jdpalmer/transmute"
   url "https://github.com/jdpalmer/transmute/archive/refs/tags/26.11.1.tar.gz"
   sha256 "274576c8d3ea816884864571bb7df54f553640df2f9ce48fda87d6c1941f2237"
-  license "Apache-2.0"
+  license "MIT"
   head "https://github.com/jdpalmer/transmute.git", branch: "master"
 
   depends_on :macos

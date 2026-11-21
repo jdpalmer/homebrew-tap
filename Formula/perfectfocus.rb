@@ -3,6 +3,7 @@ class Perfectfocus < Formula
   homepage "https://github.com/jdpalmer/perfectfocus"
   url "https://github.com/jdpalmer/perfectfocus/archive/refs/tags/26.11.1.tar.gz"
   sha256 "14153377cd5bc08d138b65c6bf0b524004f3828a3749e012f74be329e67e3146"
+  license "MIT"
   head "https://github.com/jdpalmer/perfectfocus.git", branch: "main"
 
   depends_on "jdpalmer/tap/modc" => :build
