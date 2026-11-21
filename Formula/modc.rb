@@ -14,7 +14,7 @@ class Modc < Formula
   end
 
   test do
-    assert_match "26.11.0", shell_output("#{bin}/modc -V")
+    assert_match version.to_s, shell_output("#{bin}/modc -V")
     (testpath/"hello.mc").write <<~EOS
       int main() {
           return 0;
