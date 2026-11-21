@@ -1,8 +1,8 @@
 class Perfectfocus < Formula
   desc "Terminal task organizer with a spreadsheet-style workflow"
   homepage "https://github.com/jdpalmer/perfectfocus"
-  url "https://github.com/jdpalmer/perfectfocus/archive/refs/tags/26.11.0.tar.gz"
-  sha256 "d74258c315d3b10970db76635aea04cc0865cc9da79db235633072d5bed4873e"
+  url "https://github.com/jdpalmer/perfectfocus/archive/refs/tags/26.11.1.tar.gz"
+  sha256 "b2b64401bee43da4a07f91d4a9bd7a498f9b172f8b65337092b5ae6a736764cf"
   head "https://github.com/jdpalmer/perfectfocus.git", branch: "main"
 
   depends_on "jdpalmer/tap/modc" => :build
