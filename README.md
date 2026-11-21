@@ -22,7 +22,7 @@ brew install jdpalmer/tap/<formula>
 | [`jem`](https://github.com/jdpalmer/jem) | Terminal text editor in the spirit of MicroEMACS |
 | [`modc`](https://github.com/jdpalmer/modc) | Safe systems language that compiles via QBE |
 | [`modc-qbe`](https://github.com/jdpalmer/qbe) | QBE fork with codegen fixes required by `modc` |
-| [`perfectfocus`](https://github.com/jdpalmer/perfectfocus) | Terminal task organizer (`pf`) with a spreadsheet-style workflow |
+| [`modfocus`](https://github.com/jdpalmer/modfocus) | Terminal task organizer (`modfocus`) with a spreadsheet-style workflow |
 | [`transmute`](https://github.com/jdpalmer/transmute) | Convert image formats with Quartz |
 
 ## Updating
