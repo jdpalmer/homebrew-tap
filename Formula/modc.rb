@@ -1,8 +1,8 @@
 class Modc < Formula
   desc "Safe systems language that compiles via QBE"
   homepage "https://github.com/jdpalmer/modc"
-  url "https://github.com/jdpalmer/modc/archive/refs/tags/26.11.0.tar.gz"
-  sha256 "fa3e593c7546485ff08b6cfa41fb31b42e1d9229974bcfdabc9af0742ad90abc"
+  url "https://github.com/jdpalmer/modc/archive/refs/tags/26.11.1.tar.gz"
+  sha256 "f60443d0b95f73218426a2c77cf2aa8ef42fe09b6d9a8518a234877733efe1ed"
   license "MIT"
   head "https://github.com/jdpalmer/modc.git", branch: "main"
 
