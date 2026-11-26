@@ -1,8 +1,8 @@
 class Jem < Formula
   desc "Terminal text editor in the spirit of MicroEMACS"
   homepage "https://github.com/jdpalmer/jem"
-  url "https://github.com/jdpalmer/jem/archive/refs/tags/26.11.2.tar.gz"
-  sha256 "d3906413253b6f09cfa6c276dc7bb614c8c9aca890d58023f98ea28dfbff61d3"
+  url "https://github.com/jdpalmer/jem/archive/refs/tags/26.11.3.tar.gz"
+  sha256 "eaba666bbe345b098acea094fefe31ba3cf8db328c5f2becab43b23d19b0c6fb"
   license "MIT"
   head "https://github.com/jdpalmer/jem.git", branch: "main"
 
